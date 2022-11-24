@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_comics"
+        android:name="com.app.games.activities.user.ui.comics.ComicsFragment"
+        android:label="@string/comics"
+        tools:layout="@layout/fragment_comics" />
+
+    <fragment
+        android:id="@+id/nav_videos"
+        android:name="com.app.games.activities.user.ui.videos.VideosFragment"
+        android:label="@string/shortVideos"
+        tools:layout="@layout/fragment_videos" />
+
+    <fragment
+        android:id="@+id/nav_memory"
+        android:name="com.app.games.activities.user.ui.game.GameFragment"
+        android:label="@string/memory_game"
+        tools:layout="@layout/fragment_memory_game" />
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.app.games.activities.user.ui.dashboard.DashboardFragment"
+        android:label="@string/main"
+        tools:layout="@layout/fragment_main">
+
+        <action android:id="@+id/main_to_comics"
+            app:destination="@+id/nav_comics"/>
+
+        <action android:id="@+id/main_to_videos"
+            app:destination="@+id/nav_videos"/>
+
+        <action android:id="@+id/main_to_games"
+            app:destination="@+id/nav_memory"/>
+
+    </fragment>
+</navigation>

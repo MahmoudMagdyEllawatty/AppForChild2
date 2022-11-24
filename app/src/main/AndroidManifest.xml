@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.games">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.user.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.user.ui.dashboard.ViewMuslim"
+            android:exported="false" />
+        <activity
+            android:name=".activities.user.ui.dashboard.MuslimDasboard"
+            android:exported="false" />
+        <activity
+            android:name=".activities.user.ui.game.GeneralQuestionActivity"
+            android:exported="false" />
+        <activity android:name=".activities.user.ImageLabelingActivity" />
+        <activity
+            android:name=".activities.user.LearnLettersActivity"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity
+            android:name=".activities.user.LearnNumbersActivity"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity android:name=".activities.user.MemoryGameActivity" />
+        <activity
+            android:name=".activities.admin.AdminMainActivity"
+            android:label="@string/title_activity_admin_main" />
+        <activity android:name=".activities.AppInfoActivity" />
+        <activity
+            android:name=".activities.user.UserMainActivity"
+            android:label="@string/title_activity_user_main"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity android:name=".activities.user.UserWatchVideoActivity" />
+        <activity android:name=".activities.user.UserReadComicActivity" />
+        <activity android:name=".activities.user.UserVideosActivity" />
+        <activity android:name=".activities.user.UserComicsActivity" />
+        <activity android:name=".activities.user.UserMemoryGameActivity" />
+        <activity android:name=".activities.user.UserAnswerActivity" />
+        <activity android:name=".activities.user.UserQuestionActivity" />
+        <activity android:name=".activities.user.UserQuestionsActivity" />
+        <activity android:name=".activities.user.UserQuestionTypes" />
+        <activity android:name=".activities.admin.MemoryImagesActivity" />
+        <activity android:name=".activities.admin.AddQuestionActivity" />
+        <activity android:name=".activities.admin.QuestionsActivity" />
+        <activity android:name=".activities.admin.QuestionTypeActivity" />
+        <activity android:name=".activities.CofirmPhoneActivity" />
+        <activity android:name=".activities.admin.AddShortVideoActivity" />
+        <activity android:name=".activities.admin.ShortVideosActivity" />
+        <activity
+            android:name=".activities.admin.AddComicActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.admin.ComicsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.RegisterActivity" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.app.games.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <!-- ressource file to create -->
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

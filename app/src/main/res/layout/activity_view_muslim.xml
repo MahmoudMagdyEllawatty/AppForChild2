@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.user.ui.dashboard.ViewMuslim">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="@string/learning"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        tools:context=".activities.student.StudentLettersLearningActivity">
+
+
+        <RadioGroup
+            android:visibility="gone"
+            android:id="@+id/group"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Arabic Letters"
+                android:id="@+id/arabic_letters"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+
+            <RadioButton
+                android:layout_weight="1"
+                android:text="English Letters"
+                android:id="@+id/english_letters"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <RelativeLayout
+            android:id="@+id/rel"
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="500dp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/video_area"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+            <Button
+                android:id="@+id/close_video"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:text="Close Video"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <com.google.android.exoplayer2.ui.PlayerView
+                android:id="@+id/exoplayerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="invisible" />
+
+            </com.google.android.exoplayer2.ui.PlayerView>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2.5"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/previous"
+                android:drawableEnd="@drawable/ic_prev"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:layout_margin="3dp"
+                android:text="@string/previous"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                app:backgroundTint="@color/red"
+                app:cornerRadius="5dp">
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/next"
+                android:layout_margin="3dp"
+                android:drawableEnd="@drawable/ic_next1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:text="@string/next"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="21dp"
+                app:backgroundTint="@color/green"
+                app:cornerRadius="5dp">
+            </com.google.android.material.button.MaterialButton>
+
+            <ImageButton
+                android:id="@+id/video"
+                android:layout_margin="3dp"
+                android:background="@drawable/ic_play"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:text=""
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="21dp"
+                app:backgroundTint="@color/green"
+                app:cornerRadius="5dp">
+            </ImageButton>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MGames-master/app/src/main/res/drawable-anydpi/ic_close.xml" value="0.2065" />
+        <entry key="..\:/MGames-master/app/src/main/res/drawable/ic_menuback.xml" value="0.2065" />
+        <entry key="..\:/MGames-master/app/src/main/res/drawable/item_gradient2.xml" value="0.2065" />
+        <entry key="..\:/MGames-master/app/src/main/res/drawable/row_bg.xml" value="0.2065" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_add_comic.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_add_question3.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_add_video.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_admin_main.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_app_info.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_cofirm_phone.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_general_question.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_image_labeling.xml" value="0.16621376811594202" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_learn_letters.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_learn_numbers.xml" value="0.16621376811594202" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_login.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_memory_game.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_memory_images.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_muslim_dasboard.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_profile.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_question_type.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_questions.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_questions2.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_register.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_shop_products.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_shops.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_splash.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_user_answer.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_user_comics.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_user_dashboard.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_user_main.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_user_memory_game.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_user_question.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_user_question_types.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_user_questions.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_user_read_comic.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_user_videos.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_user_watch_video.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/activity_view_muslim.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/answer_item.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/answer_type.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/app_bar_main.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/company_row.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/content_main.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/content_questions.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/correct_answer.xml" value="0.2076923076923077" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/dialog_tip.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/fragment_dashboard.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/fragment_main.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/fragment_memory_game.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/fragment_videos.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/nav_header_main.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/row.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/wrong_answer.xml" value="0.20854700854700856" />
+        <entry key="..\:/MGames-master/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/MGames-master/app/src/main/res/menu/user_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/MGames-master/app/src/main/res/xml/file_paths.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/drawable-v24/ic_add_circle.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_add_comic.xml" value="0.18" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_add_question3.xml" value="0.22" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_add_video.xml" value="0.15715579710144928" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.15715579710144928" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_admin_main.xml" value="0.15172101449275363" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_app_info.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_cofirm_phone.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_main.xml" value="0.13703703703703704" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_memory_images.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_question_type.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_questions.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_questions2.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_shop_add_product.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_shop_products.xml" value="0.13703703703703704" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_shops.xml" value="0.13703703703703704" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_splash.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_user_answer.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_user_comics.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_user_dashboard.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_user_dashboard2.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_user_main.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_user_memory_game.xml" value="0.21" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_user_question.xml" value="0.13703703703703704" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_user_question_types.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_user_questions.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_user_read_comic.xml" value="0.13703703703703704" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_user_videos.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/activity_user_watch_video.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/answer_item.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/answer_type.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/app_bar_main.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/company_row.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/content_main.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/content_questions.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/design_row.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/difficulty_selector.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/fragment_admin_comics.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/fragment_admin_memory_game.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/fragment_admin_videos.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/fragment_comics.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/fragment_dashboard.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/fragment_home.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/fragment_memory_game.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/fragment_notifications.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/fragment_videos.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/game_item.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/item_row.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/memory_item.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/nav_header_main.xml" value="0.1921875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/layout/row.xml" value="0.15172101449275363" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">Little Einstein</string>
+    <string name="description">الوصف</string>
+    <string name="password">كلمة المرور</string>
+    <string name="addprimary">اختر صورة</string>
+    <string name="shop_name">اسم القصة</string>
+    <string name="shop_user_name">اسم المستخدم</string>
+    <string name="shop_password">كلمة المرور</string>
+    <string name="shop_address">العنوان</string>
+    <string name="shop_phone">رقم الهاتف</string>
+    <string name="save">حفظ</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="cat_name">الفئة</string>
+    <string name="add_image">اختر صورة</string>
+    <string name="main_cats">الفئة الرئيسية</string>
+    <string name="add_main_category">اضافة فئه رئيسية</string>
+    <string name="add_shop">بيانات القصص</string>
+    <string name="add_sub_category">بيانات الفئة الفرعيه</string>
+    <string name="sub_cats">الفئات الفرعيه</string>
+    <string name="main_cat">الفئة الرئيسية</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="createaccount">انشاء حساب</string>
+    <string name="forgot_password">نسيت كلمة المرور؟</string>
+    <string name="lets">هيا ننشئ حساب جديد ...</string>
+    <string name="add_product">بيانات الفيديوهات</string>
+    <string name="product_name">الاسم</string>
+    <string name="product_description">الوصف</string>
+    <string name="product_properties">الخصائص</string>
+    <string name="state">الكمية</string>
+    <string name="price">السعر</string>
+    <string name="sub_cat">الفئة الفرعيه</string>
+    <string name="shortVideos">أشاهد واتعلم</string>
+    <string name="offers">العروض</string>
+    <string name="discount">الخصومات</string>
+    <string name="shop_profile">الملف الشخصي</string>
+    <string name="settings">الاعدادات</string>
+    <string name="about_us">عنا</string>
+    <string name="terms">الشروط والاحكام</string>
+    <string name="tab_text_1">صورة</string>
+    <string name="tab_text_2">نصي</string>
+    <string name="phone">الهاتف</string>
+    <string name="cpassword">تأكيد كلمة المرور</string>
+    <string name="enter_cpde">تأكيد رقم الهاتف</string>
+    <string name="send">تأكيد</string>
+    <string name="code">ادخل الكود</string>
+    <string name="slider_images">Slider Images</string>
+    <string name="disount">Discount</string>
+    <string name="home">Companies</string>
+    <string name="product_details">تفاصيل الفيديوهات</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="cart">Cart</string>
+    <string name="payment">Submit Order</string>
+    <string name="orders">Orders</string>
+    <string name="user_dashboard">الصفحة الرئبسية</string>
+    <string name="my_orders">My Orders</string>
+    <string name="add_my_design">Add My Design</string>
+    <string name="title">Title</string>
+    <string name="selec_image">اختر صورة</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_service_data">Enter Service Data</string>
+    <string name="service_name">Service Name</string>
+    <string name="service_price">Service Price</string>
+    <string name="cancel">الغاء</string>
+    <string name="service_description">Service Description</string>
+    <string name="to_hour">To Hour</string>
+    <string name="from_hour">From Hour</string>
+    <string name="available_time">Order Date</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_hour">Select Hour</string>
+    <string name="my_cars">My Cars</string>
+    <string name="add_car">Car Data</string>
+    <string name="car_name">Car Name</string>
+    <string name="plate_no">Plate No</string>
+    <string name="manufacturing_year">Manufacturing Year</string>
+    <string name="color">Color</string>
+    <string name="shape">Shape</string>
+    <string name="expired_at">Expired At</string>
+    <string name="car_type">Car Type</string>
+    <string name="notifications">Notifications</string>
+    <string name="add_review">Review Comics</string>
+    <string name="comment">Your Review .....</string>
+    <string name="company_reviews">Comics Reviews</string>
+    <string name="payment_">Payment</string>
+    <string name="select_pdf">اختر الملف</string>
+    <string name="add_video">بيانات الفيديو</string>
+    <string name="name">الاسم</string>
+    <string name="select_video">اختر ملف</string>
+    <array name="card_types">
+        <item>Visa</item>
+        <item>Master Card</item>
+    </array>
+
+    <array name="correct_answer">
+        <item>Answer 1</item>
+        <item>Answer 2</item>
+        <item>Answer 3</item>
+        <item>Answer 4</item>
+    </array>
+    <string name="title_activity_questions">QuestionsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">التالي</string>
+    <string name="previous">السابق</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_add_question">AddQuestionActivity</string>
+    <string name="question">Enter Question</string>
+    <string name="enter_answer">Enter Answer</string>
+    <string name="comics">القصص الكارتون</string>
+    <string name="show_questions">عرض الاسئلة</string>
+    <string name="submit">تأكيد</string>
+    <string name="bank">رجوع للصفحة الرئيسية</string>
+    <string name="selelct_difficulty">اختر مستوي الصعوبه</string>
+    <string name="start_game">بدء اللعبه</string>
+    <string name="add_question">اضافة سؤال</string>
+    <string name="memory_images">صور لعبة الذاكره</string>
+    <string name="questions">الاسئلة</string>
+    <string name="question_type">نوع السؤال</string>
+    <string name="user_answer">الاجابه</string>
+    <string name="memory_game">لعبه الذاكرة</string>
+    <string name="question_">السؤال</string>
+    <string name="read_pdf">قراءه قصص الكرتون</string>
+    <string name="watch">مشاهدع</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="user">مستخدم</string>
+    <string name="admin">مدير نظام</string>
+    <string name="title_activity_user_main">الصفحة الرئبسية</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">الاعدادات</string>فيديوهات
+
+    <string name="shortvideos">فيديوهات</string>
+
+    <string name="action_admin">تسجل دخول كمدير نظام</string>
+    <string name="title_activity_admin_main">مدير نظام</string>
+    <string name="title_home">الرئيسية</string>
+    <string name="title_dashboard">الرئيسية</string>
+    <string name="title_notifications">الاشعارات</string>
+    <string name="register">ليس لديك حساب ؟ انشاء جديد</string>
+    <string name="age">العمر</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="learning">التعليم</string>
+    <string name="play">سماع</string>
+    <string name="speak">نطق</string>
+    <string name="game_center">مركز الالعاب</string>
+
+    <string name="learn_animals">تعليم الحيوانات</string>
+    <string name="learn_house">تعلم بيوت الحيوانات</string>
+    <string name="learn_fruits">تعلم الفواكه</string>
+    <string name="another_">التالي</string>
+    <string name="another_try">حاول مره اخري</string>
+    <string name="learn_letters">تعلم الحروف</string>
+    <string name="learn_numbers">تعلم الارقام</string>
+
+    <string name="tip"> لسلامة أطفالكم ينصح الأطباء بعدم جلوس الأطفال على الهاتف لأكثر من ٤٥ دقيقة</string>
+    <string name="email">البريد</string>
+    <string name="tip_title">نصيحة</string>
+    <string name="main">الرئيسية</string>
+    <string name="little_muslim">المسلم الصغير</string>
+    <string name="learn_ablution">تعلم الوضوء</string>
+    <string name="how_to_pray">تعلم الصلاة</string>
+    <string name="our_prophet">رسولنا الحبيب</string>
+    <string name="my_behaviours">اخلاقياتي</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="pick_image_intent_text">اختر الصورة</string>
+</resources>

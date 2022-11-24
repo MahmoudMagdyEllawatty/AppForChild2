@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RadioGroup
+        android:id="@+id/radios"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/text_choice"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:text="Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/image_choice"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:text="Image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+
+    <RelativeLayout
+        android:id="@+id/question_layout"
+        android:layout_below="@+id/radios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Email edit text -->
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_margin="3dp"
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:boxStrokeColor="@color/primaryTextColor"
+            app:hintTextColor="@color/primaryTextColor">
+            <com.google.android.material.textfield.TextInputEditText
+                android:textCursorDrawable="@color/primaryTextColor"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:hint="@string/enter_answer"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:importantForAutofill="no"
+                android:id="@+id/answer"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <ImageView
+            android:background="@drawable/select_image"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question_layout"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="16dp"
+        android:minHeight="60dp"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:cornerRadius="25dp"
+        app:strokeColor="@color/colorPrimaryDark"
+        app:strokeWidth="1dp"></com.google.android.material.button.MaterialButton>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cancel"
+        android:layout_below="@+id/question_layout"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/cancel"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="21dp"
+        app:backgroundTint="@color/red"
+        app:cornerRadius="25dp">
+    </com.google.android.material.button.MaterialButton>
+</RelativeLayout>

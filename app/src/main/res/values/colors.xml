@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#bcebc1</color>
+    <color name="colorPrimaryDark">#5FB869</color>
+    <color name="colorAccent">#000</color>
+
+    <color name="background">#FEFEFE</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#e3d4c2</color>
+    <color name="darkGray">#FFEB3B</color>
+    <color name="loginBkColor">#f0f0f0</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#00a5ff</color>
+    <color name="mapboxWhite">#ffffff</color>
+    <color name="mapboxBlue">#4264fb</color>
+    <color name="mapboxGrayLight">#c6d2e1</color>
+    <color name="mapboxPink">#ee4e8b</color>
+    <color name="mapboxYellow">#d9d838</color>
+    <color name="mapboxRed">#b43b71</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="babyBink">#bcebc1</color>
+    <color name="babyBlue">#00B7CC</color>
+
+
+
+
+    <color name="violet">#882FF6</color>
+    <color name="mint">#35D461</color>
+    <color name="yellow">#FBDD5A</color>
+    <color name="blue">#61ACE5</color>
+    <color name="red">#F54609</color>
+    <color name="grey_10">#FFFFFF</color>
+
+</resources>

@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Little Einstein</string>
+    <string name="description">description</string>
+    <string name="password">Password</string>
+    <string name="shops">Companys</string>
+    <string name="addprimary">Select Logo</string>
+    <string name="shop_name">Comics Name</string>
+    <string name="shop_user_name">Comics User Name</string>
+    <string name="shop_password">Comics Password</string>
+    <string name="shop_address">Comics Address</string>
+    <string name="shop_phone">Comics Phone</string>
+    <string name="save">Save</string>
+    <string name="user_name">User Name</string>
+    <string name="cat_name">Category Name</string>
+    <string name="add_image">Select Image</string>
+    <string name="main_cats">Main Categories</string>
+    <string name="add_main_category">Main Category Data</string>
+    <string name="add_shop">Comics Data</string>
+    <string name="add_sub_category">Sub Category Data</string>
+    <string name="sub_cats">Sub Categories</string>
+    <string name="main_cat">Main Category</string>
+    <string name="login">Login</string>
+    <string name="createaccount">Create Account</string>
+    <string name="forgot_password">Forget Password?</string>
+    <string name="lets">Let\'s Create Your Account...</string>
+    <string name="add_product">ShortVideo Data</string>
+    <string name="product_name">ShortVideo Name</string>
+    <string name="product_description">ShortVideo Desription</string>
+    <string name="product_properties">ShortVideo Properties</string>
+    <string name="state">Quantity</string>
+    <string name="price">Price</string>
+    <string name="sub_cat">Sub Category</string>
+    <string name="shortVideos">Short Videos</string>
+    <string name="offers">Offers</string>
+    <string name="discount">Discount</string>
+    <string name="shop_profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="about_us">About Us</string>
+    <string name="terms">Terms</string>
+    <string name="title_activity_my_designs">MyDesigns</string>
+    <string name="tab_text_1">Image Question</string>
+    <string name="tab_text_2">Text Question</string>
+    <string name="phone">Phone</string>
+    <string name="cpassword">Cofirm Password</string>
+    <string name="enter_cpde">Verify Phone Number</string>
+    <string name="send">Verify</string>
+    <string name="code">Enter Code</string>
+    <string name="slider_images">Slider Images</string>
+    <string name="disount">Discount</string>
+    <string name="home">Companies</string>
+    <string name="product_details">ShortVideo Details</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="cart">Cart</string>
+    <string name="payment">Submit Order</string>
+    <string name="orders">Orders</string>
+    <string name="user_dashboard">User Dashboard</string>
+    <string name="my_orders">My Orders</string>
+    <string name="add_my_design">Add My Design</string>
+    <string name="title">Title</string>
+    <string name="selec_image">Select Image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_service_data">Enter Service Data</string>
+    <string name="service_name">Service Name</string>
+    <string name="service_price">Service Price</string>
+    <string name="cancel">Cancel</string>
+    <string name="service_description">Service Description</string>
+    <string name="to_hour">To Hour</string>
+    <string name="from_hour">From Hour</string>
+    <string name="available_time">Order Date</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_hour">Select Hour</string>
+    <string name="my_cars">My Cars</string>
+    <string name="add_car">Car Data</string>
+    <string name="car_name">Car Name</string>
+    <string name="plate_no">Plate No</string>
+    <string name="manufacturing_year">Manufacturing Year</string>
+    <string name="color">Color</string>
+    <string name="shape">Shape</string>
+    <string name="expired_at">Expired At</string>
+    <string name="car_type">Car Type</string>
+    <string name="notifications">Notifications</string>
+    <string name="add_review">Review Comics</string>
+    <string name="comment">Your Review .....</string>
+    <string name="company_reviews">Comics Reviews</string>
+    <string name="payment_">Payment</string>
+    <string name="select_pdf">Select PDF File</string>
+    <string name="add_video">Video Data</string>
+    <string name="name">Name</string>
+    <string name="select_video">Select File</string>
+    <array name="card_types">
+        <item>Visa</item>
+        <item>Master Card</item>
+    </array>
+
+    <array name="correct_answer">
+        <item>Answer 1</item>
+        <item>Answer 2</item>
+        <item>Answer 3</item>
+        <item>Answer 4</item>
+    </array>
+    <string name="title_activity_questions">QuestionsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_add_question">AddQuestionActivity</string>
+    <string name="question">Enter Question</string>
+    <string name="enter_answer">Enter Answer</string>
+    <string name="comics">Comics</string>
+    <string name="show_questions">Show Questions</string>
+    <string name="submit">Submit</string>
+    <string name="bank">Back To Dashboard</string>
+    <string name="selelct_difficulty">Select Difficulty</string>
+    <string name="start_game">Start Game</string>
+    <string name="add_question">Add Question</string>
+    <string name="memory_images">Memory Game Images</string>
+    <string name="questions">Questions</string>
+    <string name="question_type">Question Types</string>
+    <string name="user_answer">Answer</string>
+    <string name="memory_game">Memory Game</string>
+    <string name="question_">Question</string>
+    <string name="read_pdf">Read Comic</string>
+    <string name="watch">Watch</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="user">User</string>
+    <string name="admin">Admin</string>
+    <string name="title_activity_user_main">UserMainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>shortvideos
+
+    <string name="shortvideos">Short videos</string>
+
+    <string name="action_admin">Login as Admin</string>
+    <string name="title_activity_admin_main">Admin</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="register">Don\'t Have an account? Register</string>
+    <string name="age">Age</string>
+    <string name="logout">Logout</string>
+    <string name="learning">Learning</string>
+    <string name="play">Play</string>
+    <string name="speak">Speak</string>
+    <string name="game_center">Game Center</string>
+
+    <string name="learn_animals">Learn Animals</string>
+    <string name="learn_house">Learn Animal Houses</string>
+    <string name="learn_fruits">Learn Fruits</string>
+    <string name="another_">Another</string>
+    <string name="another_try">Try Again</string>
+    <string name="learn_letters">Learn Letters</string>
+    <string name="learn_numbers">Learn Numbers</string>
+
+    <string name="tip"> لسلامة أطفالكم ينصح الأطباء بعدم جلوس الأطفال على الهاتف لأكثر من ٤٥ دقيقة</string>
+    <string name="email">Email</string>
+    <string name="tip_title">Tip</string>
+    <string name="main">Main</string>
+    <string name="little_muslim">Little Muslim</string>
+    <string name="learn_ablution">Learning Ablution</string>
+    <string name="how_to_pray">How To Pray</string>
+    <string name="our_prophet">Our Prophet</string>
+    <string name="my_behaviours">My Behaviours</string>
+    <string name="change_language">Change Language</string>
+    <string name="pick_image_intent_text">Pick Image</string>
+</resources>

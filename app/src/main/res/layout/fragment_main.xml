@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_10"
+    tools:context=".activities.admin.ui.dashboard.DashboardFragment">
+
+
+    <LinearLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:foregroundGravity="center"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="0dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                        <LinearLayout
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/card_learn_numbers"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#f7f7f7">
+
+                                    <FrameLayout
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentBottom="true"
+                                        android:alpha=".50"
+                                        android:background="@drawable/ic_menuback" />
+
+                                    <FrameLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="180dp"
+                                        android:background="@drawable/item_gradient2" />
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="3dp"
+                                        android:gravity="center">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:gravity="center"
+                                                android:padding="5dp"
+
+                                                android:text="@string/comics"
+                                                android:textAllCaps="true"
+                                                android:textColor="#FFF"
+                                                android:textSize="18sp"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="96dp"
+                                                android:layout_height="96dp"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginTop="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:layout_marginBottom="2dp"
+                                                android:padding="20dp"
+                                                android:src="@mipmap/comics" />
+                                        </LinearLayout>
+
+
+                                    </RelativeLayout>
+
+
+                                </RelativeLayout>
+                            </androidx.cardview.widget.CardView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/card_learn_animals"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#f7f7f7">
+
+                                    <FrameLayout
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentBottom="true"
+                                        android:alpha=".50"
+                                        android:background="@drawable/ic_menuback" />
+
+                                    <FrameLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="180dp"
+                                        android:background="@drawable/item_gradient2" />
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="3dp"
+                                        android:gravity="center">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:gravity="center"
+                                                android:padding="5dp"
+
+                                                android:text="@string/shortVideos"
+                                                android:textAllCaps="true"
+                                                android:textColor="#FFF"
+                                                android:textSize="18sp"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="96dp"
+                                                android:layout_height="96dp"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginTop="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:layout_marginBottom="2dp"
+                                                android:padding="20dp"
+                                                android:src="@mipmap/videos" />
+                                        </LinearLayout>
+
+
+                                    </RelativeLayout>
+
+
+                                </RelativeLayout>
+                            </androidx.cardview.widget.CardView>
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/card_learn_letters"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#f7f7f7">
+
+                                    <FrameLayout
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentBottom="true"
+                                        android:alpha=".50"
+                                        android:background="@drawable/ic_menuback" />
+
+                                    <FrameLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="180dp"
+                                        android:background="@drawable/item_gradient2" />
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="3dp"
+                                        android:gravity="center">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <TextView
+
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:gravity="center"
+                                                android:padding="5dp"
+                                                android:text="@string/game_center"
+                                                android:textAllCaps="true"
+                                                android:textColor="#FFF"
+                                                android:textSize="18sp"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="96dp"
+                                                android:layout_height="96dp"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginTop="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:layout_marginBottom="2dp"
+                                                android:padding="10dp"
+                                                android:src="@mipmap/game_house_1" />
+                                        </LinearLayout>
+
+
+                                    </RelativeLayout>
+
+
+                                </RelativeLayout>
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+android:layout_marginTop="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/card_learn_house"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#f7f7f7">
+
+                                    <FrameLayout
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentBottom="true"
+                                        android:alpha=".50"
+                                        android:background="@drawable/ic_menuback" />
+
+                                    <FrameLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="180dp"
+                                        android:background="@drawable/item_gradient2" />
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="3dp"
+                                        android:gravity="center">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:gravity="center"
+                                                android:padding="5dp"
+
+                                                android:text="@string/little_muslim"
+                                                android:textAllCaps="true"
+                                                android:textColor="#FFF"
+                                                android:textSize="18sp"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="96dp"
+                                                android:layout_height="96dp"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginTop="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:layout_marginBottom="2dp"
+                                                android:padding="20dp"
+                                                android:src="@mipmap/muslim" />
+                                        </LinearLayout>
+
+
+                                    </RelativeLayout>
+
+
+                                </RelativeLayout>
+                            </androidx.cardview.widget.CardView>
+
+                        </LinearLayout>
+
+
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <!--            <com.google.android.material.button.MaterialButton-->
+            <!--                android:id="@+id/letters"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:minHeight="60dp"-->
+            <!--                android:layout_marginStart="16dp"-->
+            <!--                android:layout_marginEnd="16dp"-->
+            <!--                android:text="Learn Letters"-->
+            <!--                android:textSize="18sp"-->
+            <!--                android:textAllCaps="false"-->
+            <!--                android:layout_gravity="center_horizontal"-->
+            <!--                android:layout_marginTop="21dp"-->
+            <!--                app:backgroundTint="@color/colorPrimaryDark"-->
+            <!--                app:cornerRadius="5dp">-->
+            <!--            </com.google.android.material.button.MaterialButton>-->
+
+            <!--            <com.google.android.material.button.MaterialButton-->
+            <!--                android:id="@+id/numbers"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:minHeight="60dp"-->
+            <!--                android:layout_marginStart="16dp"-->
+            <!--                android:layout_marginEnd="16dp"-->
+            <!--                android:text="Learn Numbers"-->
+            <!--                android:textSize="18sp"-->
+            <!--                android:textAllCaps="false"-->
+            <!--                android:layout_gravity="center_horizontal"-->
+            <!--                android:layout_marginTop="21dp"-->
+            <!--                app:backgroundTint="@color/colorPrimaryDark"-->
+            <!--                app:cornerRadius="5dp">-->
+            <!--            </com.google.android.material.button.MaterialButton>-->
+
+
+            <!--        </LinearLayout>-->
+
+            <!--        <LinearLayout-->
+            <!--            android:orientation="horizontal"-->
+            <!--            android:padding="10dp"-->
+            <!--            android:layout_gravity="center"-->
+            <!--            android:gravity="center"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content">-->
+            <!--            <com.google.android.material.button.MaterialButton-->
+            <!--                android:id="@+id/memory"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:minHeight="60dp"-->
+            <!--                android:layout_marginStart="16dp"-->
+            <!--                android:layout_marginEnd="16dp"-->
+            <!--                android:text="Memory Game"-->
+            <!--                android:textSize="18sp"-->
+            <!--                android:textAllCaps="false"-->
+            <!--                android:layout_gravity="center_horizontal"-->
+            <!--                android:layout_marginTop="21dp"-->
+            <!--                app:backgroundTint="@color/colorPrimaryDark"-->
+            <!--                app:cornerRadius="5dp">-->
+            <!--            </com.google.android.material.button.MaterialButton>-->
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

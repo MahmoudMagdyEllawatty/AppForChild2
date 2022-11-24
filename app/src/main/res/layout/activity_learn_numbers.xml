@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gray"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="@string/learning"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        tools:context=".activities.student.StudentLettersLearningActivity">
+
+
+        <RadioGroup
+            android:visibility="gone"
+            android:id="@+id/group"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Arabic Letters"
+                android:id="@+id/arabic_letters"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+
+            <RadioButton
+                android:layout_weight="1"
+                android:text="English Letters"
+                android:id="@+id/english_letters"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <RelativeLayout
+            android:id="@+id/rel"
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="400dp" />
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/previous"
+                android:drawableEnd="@drawable/ic_prev"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/previous"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="21dp"
+                android:layout_weight="1"
+                app:backgroundTint="@color/red"
+                app:cornerRadius="5dp">
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/next"
+                android:drawableEnd="@drawable/ic_next1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/next"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="21dp"
+                app:backgroundTint="@color/green"
+                app:cornerRadius="5dp">
+            </com.google.android.material.button.MaterialButton>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/play"
+                android:drawableEnd="@drawable/ic_play"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/play"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="21dp"
+                app:backgroundTint="@color/colorPrimaryDark"
+                app:cornerRadius="5dp">
+            </com.google.android.material.button.MaterialButton>
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/speak"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:drawableEnd="@drawable/ic_speak"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/speak"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="21dp"
+                app:backgroundTint="@color/purple"
+                app:cornerRadius="5dp">
+            </com.google.android.material.button.MaterialButton>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

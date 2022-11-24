@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_comics1">
+
+    <fragment
+        android:id="@+id/nav_comics1"
+        android:name="com.app.games.activities.admin.ui.home.HomeFragment"
+        android:label="@string/comics"
+        tools:layout="@layout/fragment_admin_comics" />
+
+    <fragment
+        android:id="@+id/nav_videos1"
+        android:name="com.app.games.activities.admin.ui.dashboard.DashboardFragment"
+        android:label="@string/shortVideos"
+        tools:layout="@layout/fragment_admin_videos" />
+
+    <fragment
+        android:id="@+id/nav_memory1"
+        android:name="com.app.games.activities.admin.ui.notifications.NotificationsFragment"
+        android:label="@string/memory_game"
+        tools:layout="@layout/fragment_admin_memory_game" />
+</navigation>
