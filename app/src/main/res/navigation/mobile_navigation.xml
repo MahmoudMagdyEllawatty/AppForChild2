@@ -24,6 +24,12 @@
         tools:layout="@layout/fragment_memory_game" />
 
     <fragment
+        android:id="@+id/nav_logs"
+        android:name="com.app.games.activities.user.ui.logs.LogsFragment"
+        android:label="@string/user_logs"
+        tools:layout="@layout/fragment_videos" />
+
+    <fragment
         android:id="@+id/nav_dashboard"
         android:name="com.app.games.activities.user.ui.dashboard.DashboardFragment"
         android:label="@string/main"

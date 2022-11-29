@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/MGames-master/app/src/main/res/drawable-anydpi/ic_close.xml" value="0.2065" />
+        <entry key="..\:/MGames-master/app/src/main/res/drawable-xxhdpi/button_style.xml" value="0.2185" />
         <entry key="..\:/MGames-master/app/src/main/res/drawable/ic_menuback.xml" value="0.2065" />
         <entry key="..\:/MGames-master/app/src/main/res/drawable/item_gradient2.xml" value="0.2065" />
         <entry key="..\:/MGames-master/app/src/main/res/drawable/row_bg.xml" value="0.2065" />
@@ -53,10 +54,13 @@
         <entry key="..\:/MGames-master/app/src/main/res/layout/fragment_main.xml" value="0.24954710144927536" />
         <entry key="..\:/MGames-master/app/src/main/res/layout/fragment_memory_game.xml" value="0.24954710144927536" />
         <entry key="..\:/MGames-master/app/src/main/res/layout/fragment_videos.xml" value="0.24954710144927536" />
+        <entry key="..\:/MGames-master/app/src/main/res/layout/log_row.xml" value="0.24547101449275363" />
         <entry key="..\:/MGames-master/app/src/main/res/layout/nav_header_main.xml" value="0.24954710144927536" />
         <entry key="..\:/MGames-master/app/src/main/res/layout/row.xml" value="0.24954710144927536" />
         <entry key="..\:/MGames-master/app/src/main/res/layout/wrong_answer.xml" value="0.20854700854700856" />
         <entry key="..\:/MGames-master/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/MGames-master/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/MGames-master/app/src/main/res/menu/menu_search.xml" value="0.25416666666666665" />
         <entry key="..\:/MGames-master/app/src/main/res/menu/user_main.xml" value="0.25416666666666665" />
         <entry key="..\:/MGames-master/app/src/main/res/xml/file_paths.xml" value="0.24954710144927536" />
         <entry key="..\:/Users/mohamed/AndroidStudioProjects/MGames/app/src/main/res/drawable-v24/ic_add_circle.xml" value="0.20833333333333334" />

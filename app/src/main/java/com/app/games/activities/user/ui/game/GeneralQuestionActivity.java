@@ -12,16 +12,26 @@ import android.widget.TextView;
 
 import com.app.games.R;
 import com.app.games.activities.user.UserMainActivity;
+import com.app.games.callback.UserLogCallback;
+import com.app.games.controller.UserLogController;
+import com.app.games.model.UserLog;
 import com.app.games.utils.AnimalGameHelper;
 import com.app.games.utils.AnimalHouseGameHelper;
 import com.app.games.utils.FruitGameHelper;
 import com.app.games.utils.SharedData;
 import com.google.android.material.button.MaterialButton;
 
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Locale;
+
 public class GeneralQuestionActivity extends AppCompatActivity {
 
     TextView question;
     ImageView answer1,answer2,answer3,answer4;
+
+    int position = 0;
 
 
     @Override
@@ -50,7 +60,30 @@ public class GeneralQuestionActivity extends AppCompatActivity {
         mPlayer2.start();
     }
 
+
+    private void addUserLog(int correct,int wrong){
+        UserLog userLog = new UserLog();
+        userLog.setUser(SharedData.user);;
+        userLog.setQuestion(question.getText().toString());
+        userLog.setKey("");
+        userLog.setCorrect(correct);
+        userLog.setWrong(wrong);
+        userLog.setDate(new SimpleDateFormat("dd/MM/yyyy", Locale.ENGLISH).format(Calendar.getInstance().getTime()));
+
+        new UserLogController().Save(userLog, new UserLogCallback() {
+            @Override
+            public void onSuccess(ArrayList<UserLog> userLogs) {
+
+            }
+
+            @Override
+            public void onFail(String msg) {
+
+            }
+        });
+    }
     private void showCorrectDialog(){
+        addUserLog(1,0);
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         View view = getLayoutInflater().inflate(R.layout.correct_answer,null);
 
@@ -90,14 +123,31 @@ public class GeneralQuestionActivity extends AppCompatActivity {
     }
 
     private void showWrongDialog(){
+        addUserLog(0,1);
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         View view = getLayoutInflater().inflate(R.layout.wrong_answer,null);
+        ArrayList<Integer> wrongImages = new ArrayList<>();
+        wrongImages.add(R.mipmap.wrong);
+        wrongImages.add(R.mipmap.wrong1);
+        wrongImages.add(R.mipmap.wrong2);
+        wrongImages.add(R.mipmap.wrong3);
+
+        ArrayList<Integer> wrongMessages = new ArrayList<>();
+        wrongMessages.add(R.string.wrong_answer);
+        wrongMessages.add(R.string.wrong_answer1);
+        wrongMessages.add(R.string.wrong_answer2);
+        wrongMessages.add(R.string.wrong_answer3);
 
         builder.setView(view);
         builder.setCancelable(false);
 
         MaterialButton again = view.findViewById(R.id.again);
         MaterialButton cancel = view.findViewById(R.id.cancel);
+        TextView text = view.findViewById(R.id.text);
+        ImageView image = view.findViewById(R.id.image);
+
+        text.setText(wrongMessages.get(position));
+        image.setBackgroundResource(wrongImages.get(position));
 
         playAudio(R.raw.wrong);
 
@@ -107,7 +157,10 @@ public class GeneralQuestionActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 alertDialog.dismiss();
-
+                position++;
+                if(position > 3){
+                    position = 3;
+                }
             }
         });
 

@@ -169,4 +169,10 @@
     <string name="my_behaviours">اخلاقياتي</string>
     <string name="change_language">تغيير اللغة</string>
     <string name="pick_image_intent_text">اختر الصورة</string>
+    <string name="loading">جاري تحميل البيانات</string>
+    <string name="user_logs">التقييم الاسبوعي</string>
+    <string name="wrong_answer">إجابة خاطئة. حاول مره اخري</string>
+    <string name="wrong_answer1">برجاء الانتباه</string>
+    <string name="wrong_answer2">حاول ان تركز وتقرأ السؤال بعنايه</string>
+    <string name="wrong_answer3">لقد اخطأت مرارا برجاء الانتباه اكثر</string>
 </resources>

@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Little Einstein</string>
-    <string name="description">description</string>
+    <string name="description">Enter Description</string>
     <string name="password">Password</string>
     <string name="shops">Companys</string>
     <string name="addprimary">Select Logo</string>
@@ -171,4 +171,10 @@
     <string name="my_behaviours">My Behaviours</string>
     <string name="change_language">Change Language</string>
     <string name="pick_image_intent_text">Pick Image</string>
+    <string name="loading">Loading ...</string>
+    <string name="user_logs">Weekly Report</string>
+    <string name="wrong_answer">Wrong Answer,Try Again</string>
+    <string name="wrong_answer1">Wrong Answer,Pay Attention</string>
+    <string name="wrong_answer2">Wrong Answer,Try to focus</string>
+    <string name="wrong_answer3">Wrong Answer,Please Call your parents</string>
 </resources>
